@@ -35,37 +35,37 @@ const experiences = [
   {
     title: "Piscina e lazer",
     text: "Um convite a abrandar, mergulhar e aproveitar o dia com o oceano sempre por perto.",
-    image: "/images/tinguita-03.jpg",
+    image: "/images/tinguita-03.webp",
     icon: Waves,
   },
   {
     title: "Gastronomia de qualidade",
     text: "Sabores preparados para completar o dia com momentos agradáveis à mesa, num ambiente junto ao mar.",
-    image: "/images/tinguita-04.jpg",
+    image: "/images/tinguita-04.webp",
     icon: Clock3,
   },
   {
     title: "Pôr do sol",
     text: "Ao fim do dia, a luz transforma a piscina e o horizonte num cenário para guardar na memória.",
-    image: "/images/tinguita-01.jpg",
+    image: "/images/tinguita-01.webp",
     icon: Sunset,
   },
   {
     title: "Bar e bebidas especiais",
     text: "Bebidas especiais para refrescar os dias de piscina e acompanhar o pôr do sol.",
-    image: "/images/tinguita-05.jpg",
+    image: "/images/tinguita-05.webp",
     icon: Sparkles,
   },
   {
     title: "Noites tranquilas",
     text: "Luz suave, piscina iluminada e espaços exteriores pensados para prolongar o descanso.",
-    image: "/images/tinguita-06.jpg",
+    image: "/images/tinguita-06.webp",
     icon: Quote,
   },
   {
     title: "Momentos especiais",
     text: "Um cenário acolhedor para desacelerar a dois, em família ou com quem torna a viagem especial.",
-    image: "/images/tinguita-07.jpg",
+    image: "/images/tinguita-07.webp",
     icon: Users,
   },
 ];
@@ -313,7 +313,7 @@ export default function TinguitaSite() {
           style={prefersReducedMotion ? undefined : { y: heroImageY, scale: heroImageScale }}
         >
           <SiteImage
-            src="/images/tinguita-01.jpg"
+            src="/images/tinguita-07.webp"
             alt="Pôr do sol sobre a piscina e o oceano no Tinguita Paradise"
             fill
             priority
@@ -386,7 +386,7 @@ export default function TinguitaSite() {
             transition={{ duration: prefersReducedMotion ? 0 : 0.7 }}
           >
             <div className="image-frame image-frame-main">
-              <SiteImage src="/images/tinguita-03.jpg" alt="Piscina exterior do Tinguita Paradise voltada para o oceano" fill sizes="(max-width: 900px) 100vw, 50vw" />
+              <SiteImage src="/images/tinguita-03.webp" alt="Piscina exterior do Tinguita Paradise voltada para o oceano" fill sizes="(max-width: 900px) 100vw, 50vw" />
             </div>
             <div className="intro-badge"><Waves /><span><b>Junto ao oceano</b><small>Uma paisagem que convida a abrandar</small></span></div>
           </motion.div>
@@ -426,7 +426,7 @@ export default function TinguitaSite() {
             <div className="structure-stat"><span>Dia</span><i /><span>Pôr do sol</span><i /><span>Noite</span></div>
           </div>
           <div className="structure-image">
-            <SiteImage src="/images/tinguita-02.jpg" alt="Vista aérea noturna da estrutura e piscina do Tinguita Paradise" fill sizes="(max-width: 900px) 100vw, 60vw" />
+            <SiteImage src="/images/tinguita-02.webp" alt="Vista aérea noturna da estrutura e piscina do Tinguita Paradise" fill sizes="(max-width: 900px) 100vw, 60vw" />
           </div>
         </div>
       </section>
@@ -466,7 +466,7 @@ export default function TinguitaSite() {
       </section>
 
       <section className="manifesto-section">
-        <SiteImage src="/images/tinguita-07.jpg" alt="Pôr do sol sobre a piscina com vista para o oceano" fill sizes="100vw" />
+        <SiteImage src="/images/tinguita-07.webp" alt="Pôr do sol sobre a piscina com vista para o oceano" fill sizes="100vw" />
         <div className="manifesto-shade" />
         <motion.div
           className="shell manifesto-content"
