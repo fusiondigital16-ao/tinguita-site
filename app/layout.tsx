@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Tinguita Paradise",
     url: deploymentBase,
     images: [{
-      url: "images/tinguita-01.jpg",
+      url: "images/tinguita-07.webp",
       width: 1256,
       height: 940,
       alt: "Pôr do sol sobre a piscina e o oceano no Tinguita Paradise",

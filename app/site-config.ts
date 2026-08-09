@@ -48,37 +48,37 @@ export const siteConfig = {
   ],
   gallery: [
     {
-      src: "/images/tinguita-01.jpg",
+      src: "/images/tinguita-01.webp",
       alt: "Pôr do sol sobre a piscina e o oceano no Tinguita Paradise",
       category: ["Piscina", "Vista para o mar", "Noite"],
     },
     {
-      src: "/images/tinguita-02.jpg",
+      src: "/images/tinguita-02.webp",
       alt: "Vista aérea noturna da piscina e da estrutura do Tinguita Paradise",
       category: ["Piscina", "Áreas exteriores", "Noite"],
     },
     {
-      src: "/images/tinguita-03.jpg",
+      src: "/images/tinguita-03.webp",
       alt: "Piscina exterior e zona de lazer com vista para o oceano",
       category: ["Piscina", "Vista para o mar", "Dia"],
     },
     {
-      src: "/images/tinguita-04.jpg",
+      src: "/images/tinguita-04.webp",
       alt: "Pergolado e mesas ao ar livre junto ao mar",
       category: ["Áreas exteriores", "Vista para o mar", "Dia"],
     },
     {
-      src: "/images/tinguita-05.jpg",
+      src: "/images/tinguita-05.webp",
       alt: "Área exterior do resort com pergolado, piscina e oceano",
       category: ["Áreas exteriores", "Vista para o mar", "Dia"],
     },
     {
-      src: "/images/tinguita-06.jpg",
+      src: "/images/tinguita-06.webp",
       alt: "Piscina iluminada e zonas de descanso ao anoitecer",
       category: ["Piscina", "Áreas exteriores", "Noite"],
     },
     {
-      src: "/images/tinguita-07.jpg",
+      src: "/images/tinguita-07.webp",
       alt: "Pôr do sol visto da área da piscina e refeições ao ar livre",
       category: ["Piscina", "Vista para o mar", "Noite"],
     },
